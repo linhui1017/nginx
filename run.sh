@@ -11,6 +11,7 @@ docker run --name nginx -d \
   --restart=always \
   --dns 8.8.8.8 \
   -p 80:80 \
+  -p 443:443 \
   -t nginx:latest
 
 
