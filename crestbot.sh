@@ -6,4 +6,4 @@ docker run -it --rm \
 certbot/certbot certonly \
 --webroot --webroot-path=/var/www/certbot \
 --email s9043044@gmail.com --agree-tos --no-eff-email \
--d chinureeves.com -d ubuntu.chinureeves.com
+-d ubuntu.chinureeves.com
