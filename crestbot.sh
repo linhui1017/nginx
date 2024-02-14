@@ -6,6 +6,7 @@ docker run -it --rm \
 certbot/certbot certonly \
 --webroot --webroot-path=/var/www/certbot \
 --email s9043044@gmail.com --agree-tos --no-eff-email \
---manual --preferred-challenges=dns -d '*.chinureeves.com' -d chinureeves.com
+--manual --preferred-challenges=dns \
+-d '*.chinureeves.com' -d chinureeves.com
 
 
