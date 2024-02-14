@@ -8,7 +8,7 @@ docker run --name nginx -d \
   -v $PWD/html:/usr/share/nginx/html:rw \
   -v $PWD/log:/var/log/nginx:rw \
   --restart=always \
-  --dns 172.16.254.51 --dns 8.8.8.8 \
+  --dns 8.8.8.8 \
   -p 8080:80 \
   -t nginx:latest
 
