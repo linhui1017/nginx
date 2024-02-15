@@ -8,7 +8,7 @@ docker run --name nginx -d \
   -v $PWD/conf/mime.types:/etc/nginx/mime.types \
   -v $PWD/html:/usr/share/nginx/html:rw \
   -v $PWD/log:/var/log/nginx:rw \
-  --restart=always \
+  --restart=unless-stopped \
   --dns 8.8.8.8 \
   -p 80:80 \
   -p 443:443 \
