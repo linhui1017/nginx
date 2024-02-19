@@ -1,1 +1,1 @@
-0 3 * * * cd /home/s9043044/docker/nginx && sudo bash run.sh
+0 3 * * * cd /home/s9043044/docker/nginx && sudo bash crestbot-renew.sh
